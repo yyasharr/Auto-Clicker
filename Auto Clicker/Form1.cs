@@ -7,7 +7,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Microsoft.VisualStudio.TestTools.UITesting;
 using System.Runtime.InteropServices;
 
 namespace Auto_Clicker
