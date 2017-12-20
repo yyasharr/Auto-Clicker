@@ -36,7 +36,9 @@ namespace Auto_Clicker
         {
             string input = textBox1.Text;
 
-            if (int.TryParse(input, out int n) && n > 0)
+            int n = int.MaxValue;
+
+            if (int.TryParse(input, out n) && n > 0)
             {
                 seconds = n;
                 label2.Text = "Running";
