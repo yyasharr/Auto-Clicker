@@ -110,6 +110,8 @@
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.StopButton);
             this.Controls.Add(this.StartButton);
+            this.MaximumSize = new System.Drawing.Size(286, 104);
+            this.MinimumSize = new System.Drawing.Size(286, 104);
             this.Name = "Form1";
             this.Text = "Auto Clicker";
             this.ResumeLayout(false);
